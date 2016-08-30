@@ -1,6 +1,7 @@
 # !/usr/bin/env python
 # coding: utf-8
 
+# author:End1ng
 
 class hz2pyclass(object):
     u"""汉字转换成拼音 convert:无声调 convert_sd:有声调"""
