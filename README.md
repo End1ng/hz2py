@@ -1,6 +1,7 @@
 # hz2py
 汉字转拼音
-
+convert函数:无声调 
+convert_sd函数:有声调
 例子
 ```
 a = hz2pyclass()
