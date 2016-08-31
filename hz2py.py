@@ -28,7 +28,7 @@ class hz2pyclass(object):
             word = word.decode('utf-8')
         if len(word) != 1:
             print u"请输入一个汉字"
-            return
+            return []
         for x in self.wordlist:
             k = '\\u' + x[0]
             k = k.decode('unicode-escape')
