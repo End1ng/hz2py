@@ -1,7 +1,7 @@
 # !/usr/bin/env python
 # coding: utf-8
 
-# author:End1ng
+import sys
 
 class hz2pyclass(object):
     u"""汉字转换成拼音 convert:无声调 convert_sd:有声调"""
@@ -9,7 +9,7 @@ class hz2pyclass(object):
     def __init__(self):
         super(hz2pyclass, self).__init__()
         self.wordlist = []
-        with open("./word.txt") as f:
+        with open("lib/word.txt") as f:
             for line in f:
                 self.wordlist.append(line.split('    '))
             # print self.wordlist
@@ -28,7 +28,7 @@ class hz2pyclass(object):
             word = word.decode('utf-8')
         if len(word) != 1:
             print u"请输入一个汉字"
-            return []
+            sys.exit()
         for x in self.wordlist:
             k = '\\u' + x[0]
             k = k.decode('unicode-escape')
