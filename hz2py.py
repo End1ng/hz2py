@@ -38,9 +38,10 @@ class hz2pyclass(object):
                     rlist.append([i[:-1],i[-1:]])
                 return rlist
 
+if __name__ == '__main__':
 
-a = hz2pyclass()
-print a.convert("当")
-print a.convert_sd("当")
-print a.convert("解")
-print a.convert_sd("解")
+    a = hz2pyclass()
+    print a.convert("当")
+    print a.convert_sd("当")
+    print a.convert("解")
+    print a.convert_sd("解")
