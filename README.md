@@ -1,4 +1,5 @@
-# hz2py
+# word2phonetic
+
 汉字转拼音
 convert函数:无声调 
 convert_sd函数:有声调
