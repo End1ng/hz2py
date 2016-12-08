@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 # coding: utf-8
-
+# author:End1ng
 import sys
 
 class hz2pyclass(object):
